@@ -1,4 +1,6 @@
 ﻿using GoogleMapInfo;
+using Grpc.Core;
+using MicroserviceMapInfo.Protos;
 
 namespace MicroserviceMapInfo.Services
 {

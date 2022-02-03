@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceMapInfo", "MicroserviceMapInfo\MicroserviceMapInfo.csproj", "{71EBE1D6-F0FE-4AB7-B82F-BFF17BC008EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceMapInfo", "MicroserviceMapInfo\MicroserviceMapInfo.csproj", "{71EBE1D6-F0FE-4AB7-B82F-BFF17BC008EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapInfo", "GoogleMapInfo\GoogleMapInfo.csproj", "{C827ED99-ADD2-4569-B09E-16763CDBE3A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleMapInfo", "GoogleMapInfo\GoogleMapInfo.csproj", "{C827ED99-ADD2-4569-B09E-16763CDBE3A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApp", "TestApp", "{D6A868D5-B344-4664-9B1B-4C6F216D2A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice_gRPC_Tester", "Microservice_gRPC_Tester\Microservice_gRPC_Tester.csproj", "{21F16E1A-FCE9-4349-ADE7-C29A93397C52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{C827ED99-ADD2-4569-B09E-16763CDBE3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C827ED99-ADD2-4569-B09E-16763CDBE3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C827ED99-ADD2-4569-B09E-16763CDBE3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F16E1A-FCE9-4349-ADE7-C29A93397C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F16E1A-FCE9-4349-ADE7-C29A93397C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F16E1A-FCE9-4349-ADE7-C29A93397C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F16E1A-FCE9-4349-ADE7-C29A93397C52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{21F16E1A-FCE9-4349-ADE7-C29A93397C52} = {D6A868D5-B344-4664-9B1B-4C6F216D2A19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09ADEF1B-67E7-4C36-B439-F0592795C0A2}

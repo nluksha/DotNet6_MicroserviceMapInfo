@@ -4,7 +4,7 @@ option csharp_namespace = "MicroserviceMapInfo.Protos";
 package distance;
 
 service DistanceInfo {
-	rpc GetDistance (Cities) returns (DitanceData);
+	rpc GetDistance (Cities) returns (DistanceData);
 }
 
 message Cities {
