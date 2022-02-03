@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceMapInfo", "MicroserviceMapInfo\MicroserviceMapInfo.csproj", "{71EBE1D6-F0FE-4AB7-B82F-BFF17BC008EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapInfo", "GoogleMapInfo\GoogleMapInfo.csproj", "{C827ED99-ADD2-4569-B09E-16763CDBE3A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{71EBE1D6-F0FE-4AB7-B82F-BFF17BC008EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71EBE1D6-F0FE-4AB7-B82F-BFF17BC008EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71EBE1D6-F0FE-4AB7-B82F-BFF17BC008EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C827ED99-ADD2-4569-B09E-16763CDBE3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C827ED99-ADD2-4569-B09E-16763CDBE3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C827ED99-ADD2-4569-B09E-16763CDBE3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C827ED99-ADD2-4569-B09E-16763CDBE3A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
