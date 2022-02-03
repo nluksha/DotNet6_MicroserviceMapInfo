@@ -9,7 +9,7 @@ namespace GoogleMapInfo
     public class GoogleDistanceData
     {
         public string[] destination_addresses { get; set; }
-        public string[] original_addresses { get; set; }
+        public string[] origin_addresses { get; set; }
         public Row[] rows { get; set; }
         public string status { get; set; }
     }
