@@ -95,6 +95,4 @@ namespace MicroserviceMapInfo.Services
         public string text { get; set; }
         public int value { get; set; }
     }
-
-
 }
